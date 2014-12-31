@@ -1,5 +1,9 @@
 debnetwork cookbook
 ===================
+* **Deprecated in favor of [firewall-ex](https://github.com/nephilagraphic-cookbooks/firewall-ex) cookbook** 
+* postrouting, send_redirects, and forward rules are replicated in firewall-ex cookbook.
+* ipv4_preferred users should use the Heavywater getaddrinfo cookbook.
+
 Simple networking LWRP for Debian/Ubuntu nodes.
 
 Includes guards for OpenVZ.
